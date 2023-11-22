@@ -87,7 +87,7 @@ body{
 }
 
 .email-member{
-    margin-right: 280px;
+    margin-right: 40px;
     
 }
 
@@ -110,7 +110,7 @@ body{
 
 .btn-get-started{
     margin-left:10px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .btn-get-started:hover{
@@ -123,10 +123,28 @@ body{
 }
 
 .middle-content{
-    margin-top: 0px;
+    /* margin-top: 0px; */
     color: white;
 }
 
 .hr-top{
     border: 3px solid rgb(80, 80, 80)
+}
+
+.p-content{
+    text-align: center;
+    text-indent: -1000px; /*ใช่ในการขยับตัวหนังสือไปทางซ้ายหรือขวา ถ้าจะไปด้านซ้ายต้องมีค่าเป็น- ขวามีค่าเป็น+*/
+    margin-top: 7%;
+    margin-left: 25%;
+}
+
+.p-content p{
+    text-indent: -800px; /*ใช่ในการขยับตัวหนังสือไปทางซ้ายหรือขวา ถ้าจะไปด้านซ้ายต้องมีค่าเป็น- ขวามีค่าเป็น+*/
+}
+
+.md-text-content img{
+    position: absolute;
+    right: 0%;
+    top: 60%;
+    left: 60%;
 }
