@@ -1,0 +1,93 @@
+body{
+    background: url('../Netflix_Template/img/TH-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
+    background-color: black;
+    text-align: center;
+
+}
+
+.sign-in{
+    margin-left: 0.3cm;
+}
+
+.netflix-logo img{
+    margin-left: 5cm;
+} 
+
+.netflix-logo select{
+    size: 10cm;
+    border-radius: 0.5cm;
+    margin-top: 1cm;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30cm;
+    font-size: 0.5cm;
+} 
+
+.netflix-logo button{
+    text-align: center;
+    size: 10cm;
+    margin-top: 1cm;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    background-color: red;
+    font-size: 0.4cm;
+    padding: 5px 5px;
+    border-radius: 10px;
+} 
+
+.netflix-logo button:hover{
+    text-align: center;
+    size: 10cm;
+    margin-top: 1cm;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    background-color: rgb(190, 3, 3);
+    font-size: 0.4cm;
+    padding: 5px 5px;
+    border-radius: 10px;
+} 
+
+.show-content{
+    font-size: 25px;
+    color: white;
+}
+
+.email-member{
+    margin-right: 280px;
+    
+}
+
+.email-member .input-email{
+    width: 400px;
+    height: 70px;
+    background: rgba(0, 0, 0, .75);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.email-member .btn-get-started{
+    background-color: red;
+    color: white;
+    font-size: 1cm;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-get-started{
+    margin-left:10px;
+    position: fixed;
+}
+
+.btn-get-started:hover{
+    background-color: rgb(190, 3, 3);
+    color: white;
+    font-size: 1cm;
+    padding: 15px 3จpx;
+    border: none;
+}
