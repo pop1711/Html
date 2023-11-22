@@ -1,15 +1,44 @@
 body{
-    background: url('../Netflix_Template/img/TH-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
     background-color: black;
     text-align: center;
+    font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #000;
+	color: #999;
+}
 
+.top{
+    /* margin: 0;
+    padding: 0; */
+    position: relative;
+    width: 100%;
+	height: 55vh;
+    background: url('../Netflix_Template/img/TH-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
+}
+
+.top::after{
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.4);
+	box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.top-content {
+	position: relative;
+	z-index: 2;
+	height: 90px;
 }
 
 .sign-in{
     margin-left: 0.3cm;
 }
 
-.netflix-logo img{
+.netflix-logo nft-logo{
     margin-left: 5cm;
 } 
 
@@ -88,6 +117,16 @@ body{
     background-color: rgb(190, 3, 3);
     color: white;
     font-size: 1cm;
-    padding: 15px 3จpx;
+    padding: 15px 30px;
     border: none;
+    border-radius: 10px;
+}
+
+.middle-content{
+    margin-top: 0px;
+    color: white;
+}
+
+.hr-top{
+    border: 3px solid rgb(80, 80, 80)
 }
